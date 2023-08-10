@@ -1,0 +1,211 @@
+body{
+  font-family: Tahoma;
+  color: #444;
+  letter-spacing: 1px;
+  font-size: 11px;
+  border-radius: 10px;
+  background: #eee;
+}
+
+#book-list h1{
+  float: right;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.clear{
+  clear: both;
+}
+
+h1, h2{
+  font-weight: normal;
+}
+
+#container{
+  width: 90%;
+  max-width: 960px;
+  margin: 20px auto;
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: 0px 4px 9px rgba(28, 43, 140, 0.2);
+  box-sizing: border-box;
+  padding: 0 0 40px;
+  overflow: hidden;
+  border: 3px solid lightgray;
+}
+
+#page-banner{
+  background: #eee ;
+  padding: 10px 0;
+
+}
+
+#page-banner h1, #page-banner p{
+  width: 100%;
+  text-align: center;
+  margin: 14px 0;
+  color: #eee;
+  text-shadow: #fff;
+  background-color: #253077;
+  padding: 14px;
+  border-radius: 4px 4px, 4px, 4px;
+  page-break-inside: avoid;
+}
+#book-list h1{
+  float:  right;
+  margin-right: 36px;
+  font-family: serif;
+  background-color: #253077;
+  padding: 15px;
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 135px;
+  text-align: center;
+}
+#page-banner input{
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #253077;
+  text-align: left;
+
+}
+
+#book-list, #add-book, #tabbed-content{
+  margin: 20px;
+}
+
+#book-list h2{
+  float:  right;
+  margin-right: 36px;
+  font-family: serif;
+  background-color: #253077;
+  padding: 15px;
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 135px;
+  text-align: center;
+}
+
+#book-list ul, #tabbed-content ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#book-list li{
+  padding: 20px;
+  border-right: 25px solid #ddd;
+  margin: 20px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #253077;
+  font-family: sans-serif;
+  font-weight: 100%;
+ 
+  font-display: initial;
+}
+
+#book-list li:hover{
+  border-color: #253077;
+}
+
+.delete{
+  float: left;
+  padding-bottom: 4px;
+  background: #253077;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  
+}
+
+.name{
+  float: right;
+  text-shadow: #253077;
+}
+
+.delete:hover{
+  background: #dbe1eb;
+  border-radius: 10px;
+  color: #9361bf;
+  font-weight: bold;
+}
+
+#add-book{
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-book input{
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+}
+
+#add-book .button{
+  border: 1px solid #eee;
+  background: #253077;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: 59px;
+  margin: 20px 0;
+  border-left: 0;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+#add-book:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#hide{
+  float:  right;
+  margin-right: 56px;
+  font-family: serif;
+  background-color: #eee;
+  padding-right: 25px;
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  
+  text-align: center;
+}
+
+#hide label{
+  padding: 3 7px;
+  color: #253077;
+  text-align: right;
+}
+
+#add-book #hide{
+  width: 20px;
+  font-size: 14px;
+  color: #253077;
+}
